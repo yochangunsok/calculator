@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        <link href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <input readonly class="result" id="RESULT" value="0">
+
+        <div class="flex">
+            <div class="flexChild number" data-element="7">7</div>
+            <div class="flexChild number" data-element="8">8</div>
+            <div class="flexChild number" data-element="9">9</div>
+            <div class="flexChild ope" data-element="*">×</div>
+        </div>
+
+        <div class="flex">
+            <div class="flexChild number" data-element="4">4</div>
+            <div class="flexChild number" data-element="5">5</div>
+            <div class="flexChild number" data-element="6">6</div>
+            <div class="flexChild ope" data-element="/">÷</div>
+        </div>
+
+        <div class="flex">
+            <div class="flexChild number" data-element="1">1</div>
+            <div class="flexChild number"  data-element="2">2</div>
+            <div class="flexChild number" data-element="3">3</div>
+            <div class="flexChild ope" data-element="-">-</div>
+        </div>
+
+        <div class="flex">
+            <div class="flexChild2 number" data-element="0">0</div>
+            <div class="flexChild" data-element="." id="decimal">.</div>
+            <div class="flexChild ope" data-element="+">+</div>
+        </div>
+
+        <div class="flex">
+            <div class="flexChild2" id="clear">C</div>
+            <div class="flexChild2 ope" id="=" data-element="=">=</div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
