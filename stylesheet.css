@@ -1,0 +1,41 @@
+body{
+    width: 800px;
+    margin: 200px auto;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    border-left: 1px solid black;
+    box-sizing: border-box;
+}
+
+.flexChild{
+    width: 200px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.flexChild2{
+    width: 401px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+}
+
+.result{
+    width: 100%;
+    border: 1px solid black;
+    padding: 30px 50px;
+    text-align: right;
+    font-size: 35px;
+    margin: 0;
+}
+
+.flexChild:hover , .flexChild2:hover{
+    background-color: rgb(248, 248, 189);
+}
